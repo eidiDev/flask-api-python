@@ -35,6 +35,7 @@ class Orcamento(db.Model):
 
 
 
+
 # Selecionar Tudo
 @app.route("/orcamentos", methods=["GET"])
 def seleciona_orcamentos():
